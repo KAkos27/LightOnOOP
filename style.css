@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: auto;
+  width: 400px;
+}
+
+.jatekter {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5rem;
+}
+
+.jatekter div {
+  aspect-ratio: 1;
+  background-color: green;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.felkapcs {
+  background-color: yellow !important;
+}
